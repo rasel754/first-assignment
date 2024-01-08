@@ -104,3 +104,61 @@ header{
     background: #F00;
     padding: 16px 32px;
 }
+/* offer section style */
+.upcoming-offer{
+    display: flex;
+     gap:25px;
+    justify-content: space-between;
+    /* width: 1600px; */
+    /* line-height: normal; */
+    align-items: center;
+
+  
+}
+.offer-column1 h3{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+}
+.offer-column1 h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 0px;
+}
+.offer-column1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 22px;
+}
+.offer-column2{
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+   
+}
+#width-set{
+    padding: 49.08px;
+}
+.offer-column3 h1{
+    font-size: 48px;
+    font-weight: 700;
+    /* padding: 120px; */
+    padding-top: 105px;
+    padding-bottom:none;
+    
+}
+.offer-column3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+.offer-column3 img{
+    width:150px;
+    height:150px;
+    /* padding-top: 40px; */
+}
