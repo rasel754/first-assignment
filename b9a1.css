@@ -1,4 +1,7 @@
 /* common style */
+*{
+    margin: 0px;
+}
 .common-color{
     color: #F00;
 }
@@ -91,9 +94,10 @@ header{
 /* .location section style */
 .location{
     text-align: center;
-    margin-top:  120px;
+    margin-top:120px;
     width: 1320px;
     height: 482px;
+    padding: 25px;
 }
 .location h3{
     font-size: 32px;
@@ -103,14 +107,17 @@ header{
     border-radius: 8px;
     background: #F00;
     padding: 16px 32px;
+    margin-top: 50px;
 }
 /* offer section style */
+.best-offer{
+    margin-top: 0px;
+}
 .upcoming-offer{
     display: flex;
      gap:25px;
     justify-content: space-between;
-    /* width: 1600px; */
-    /* line-height: normal; */
+    
     align-items: center;
 
   
@@ -146,7 +153,6 @@ header{
 .offer-column3 h1{
     font-size: 48px;
     font-weight: 700;
-    /* padding: 120px; */
     padding-top: 105px;
     padding-bottom:none;
     
@@ -160,5 +166,58 @@ header{
 .offer-column3 img{
     width:150px;
     height:150px;
-    /* padding-top: 40px; */
+}
+/* holyday sale section style */
+.section6{
+    padding-top: 120px;
+}
+.information{
+text-align: center;
+
+}
+#sale-h4{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+
+}
+.sale-heading{
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom:30px;
+}
+.information p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding:0px 270px;
+    margin-bottom: 10px;
+}
+.picture-design{
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    border-radius: 16px 0px 16px 16px;
+    height: 430px;
+}
+.picture-design img{
+margin-left: 1000px;    
+}
+
+.bg-red-image{
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-position: cover;
+    width: 100%;
+    height: 220px;
+}
+#logo{
+    justify-content:;
+}
+.bg-red-image img{
+    height: 600px;
+    width: auto;
+    margin-top: -450px  ;
 }
