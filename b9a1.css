@@ -93,8 +93,8 @@ header{
 }
 /* .location section style */
 .location{
+    margin: 120px 140px 0px 140px;
     text-align: center;
-    margin-top:120px;
     width: 1320px;
     height: 482px;
     padding: 25px;
@@ -111,7 +111,8 @@ header{
 }
 /* offer section style */
 .best-offer{
-    margin-top: 0px;
+    margin: 0px 140px;
+    
 }
 .upcoming-offer{
     display: flex;
@@ -220,4 +221,29 @@ margin-left: 1000px;
     height: 600px;
     width: auto;
     margin-top: -450px  ;
+}
+/* products-secton style */
+.products-secton{
+    margin: 120px 120px;
+}
+#best-gifts{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.products-description h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+.products-description p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 24px;
+
+}
+.products-pic{
+    padding:24px;
 }
