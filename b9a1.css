@@ -1,6 +1,7 @@
 /* common style */
 *{
     margin: 0px;
+    font-family: 'Inter', sans-serif;
 }
 .common-color{
     color: #F00;
@@ -10,6 +11,7 @@ header{
     width: 1320px;
     height: 600px;
     background-image: url('../resources/Banner\ Image.png');
+    filter: brightness(50%);
     margin: 50px 140px 120px 140px;
 }
 .banner{
@@ -96,7 +98,7 @@ header{
     margin: 120px 140px 0px 140px;
     text-align: center;
     width: 1320px;
-    height: 482px;
+    height: 400px;
     padding: 25px;
 }
 .location h3{
@@ -247,6 +249,9 @@ margin-left: 1000px;
 .products-pic{
     padding:24px;
 }
+.products-pic img:hover{
+    box-shadow: 10px 12px 6px rgb(166, 194, 166);
+}
 .last-section{
     margin:0px 140px 120px 140px;
     width: 1320px;
@@ -336,6 +341,9 @@ footer{
 }
 hr{
     margin: 50px 140px;
+}
+hr:hover{
+    box-shadow: 15px 20px 9px rgb(175, 37, 37);
 }
 #icon{
     padding:0px 25px;
