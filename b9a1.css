@@ -306,6 +306,59 @@ input[type="submit"]{
     font-weight: 600;
 
 }
+/* footer section style */
+footer{
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    margin-top: 120px;
+}
+.contact{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 120px;
+}
+.footer-location{
+    color: #FFF;
+    padding-left: 140px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.contact a {
+    display: block;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    padding-right: 290px;
+
+}
+hr{
+    margin: 50px 140px;
+}
+#icon{
+    padding:0px 25px;
+    text-align: center;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+}
+.review p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 140px;
+}
+.review button{
+    color: #e10c0c;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 140px;
+    border-radius: 15px;
+}
+
 
  
 
